@@ -1,0 +1,57 @@
+{
+    "user" : {
+        "fullName": "Mzwandile Majwapula",
+        "photo" : "/photos/webp.net-resizeimage.jpg",
+        "background photo" : "/photos/table mountain.jpg",
+        "universityName": "University of Johannesburg",
+        "qualification": "Bsc Hons in Construction Project Man"
+    },
+    "city" : {
+        "name" : "Paris",
+        "photo" : "/photos/city-paris-600.jpg.webp",
+        "description" : "Paris is France's capital and most populous city, with an official estimated population of more than two million people, making it the fourth-most populated city in the European Union and the world's 30th most densely populated city. It is famous across the world for the Louvre Museum, Notre-Dame Cathedral, and the Eiffel Tower. It is known for being a romantic and cultural city."
+    },
+    "foreignLanguage" : {
+        "language" : "French",
+        "phrases" : [
+        {
+            "englishPhrase" : "Have a nice trip",
+            "foreignLanguage" : "Bon voyage"
+        },
+        {
+            "englishPhrase" : "To a sickening or excessive degree",
+            "foreignLanguage" : "Ád Nauseam"
+        },
+        {
+            "englishPhrase" : "Authority or permission to do something the one chooses to do it",
+            "foreignLanguage" : "Carte blanche"
+        },
+        {
+            "englishPhrase" : "Because of that fact",
+            "foreignLanguage" : "Ipso fatcor"
+        }
+    ]
+    },
+         "favouriteSubjects": [
+            {
+                "name": "Engineering Mathematics 1B",
+                "description": " The main purpose of this course is to provide students with a basic foundation in differentiation and integration techniques with simple applications, the binomial theorem, simple series and the conic sections in preparation for further study in Engineering Mathematics IB. Topics in Calculus include: Functions; Domain and range of functions; composite functions; Limits and continuity; Differentiation; Applications of differentiation (curve sketching, maxima and minima and rates of change); Antiderivatives, definite and indefinite integrals; Riemann sums; Applications of integration to areas and volumes; the natural logarithmic and exponential functions (transcendental functions).",
+                "photo": "/photos/derivative.png"
+            },
+            {
+                "name": "Surveying 1A",
+                "description": "Civil surveying is an engineering operation that involves assessing and recording details about an area of land. These observations can then be used to help plan construction projects. The main purpose of surveying in civil engineering is to determine the three-dimensional relationships between different locations. Knowing information like the distances and angles between points and lines helps engineers determine how to draw up plans for public buildings, homes, roads, bridges and a variety of other construction and infrastructure projects.",
+                "photo": "/photos/images.surveying.png"
+            },
+            {
+                "name": "Engineering statistics",
+                "description": "Engineering statistics combines engineering and statistics using scientific methods for analyzing data. Engineering statistics involves data concerning manufacturing processes such as: component dimensions, tolerances, type of material, and fabrication process control. There are many methods used in engineering analysis and they are often displayed as histograms to give a visual of the data as opposed to being just numerical.",
+                "photo": "/photos/statistics.jpg"
+            }
+        ],
+        "pages":{
+            "boostrapPages":"./index-bootstrap.html",
+            "materializePages":"./index-materialize.html",
+            "homePage":"./index.html"
+        }
+    }
