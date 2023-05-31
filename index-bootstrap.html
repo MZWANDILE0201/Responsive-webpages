@@ -13,12 +13,24 @@
 </head>
 
 <body>
+
+    <style>  
+        .row{
+            overflow: auto;
+            display: flexbox;
+        }
+        .container {
+            overflow: auto;
+            display: flexbox
+        }
+    </style>
+
     <div class="container">
         <br>
         <div class="row">
             <div class="col-md-6">
                 <h1>{{user.fullName}}</h1>
-                <p>{{user.qalification}}<br>{{user.universityName}}</p>
+                <p>{{user.qualification}}<br>{{user.universityName}}<br>{{user.gender}}</p>
             </div>
             <div class="col-md-6"><img class="img" src={{user.photo}}></div>
         </div>
@@ -65,3 +77,4 @@
 </body>
 
 </html>
+
