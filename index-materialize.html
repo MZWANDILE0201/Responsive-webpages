@@ -15,33 +15,20 @@
 </head>
 
 <body>
-    
-    <style>
-        .row{
-            overflow: auto;
-            display: flexbox;
-        }
-        .container {
-            overflow: auto;
-            display: flexbox;
-        }   
-    </style>
-
     <div class="container">
         <br>
         <div class="row">
             <div class="col m6">
                 <h1>{{user.fullName}}</h1>
-                <p>{{user.qualification}}<br>{{user.universityName}}<br>{{user.gender}}</p>
+                <p>{{user.qalification}}<br>{{user.universityName}}</p>
             </div>
-            <div class="col m6"><img class="img" src={{user.photo}}></div>
+            <div class="col"><img class="img" src={{user.photo}}></div>
         </div>
-        <hr>
-
-
-        <a href={{pages.homePage}} class="btn btn-primary">HOME</a>
-        <hr>
-
+            
+    </div>
+    <hr>
+    <a href={{pages.homePage}} class="btn btn-primary">HOME</a>
+    <hr>
         <div class="row">
             <h3>{{city.name}}</h3>
         </div>
@@ -57,7 +44,7 @@
             <table class="table table-bordered">
                 <tr>
                     <th>English</th>
-                    <th>French</th>
+                    <th>Foreign Language</th>
                 </tr>
                 {{#each foreignLanguage.phrases}}
                 <tr>
@@ -67,17 +54,17 @@
                 {{/each}}
             </table>
         </div>
+        <hr>
         <div class="row"><h4>FAVOURITE SUBJECTS</h4></div>
         <div class="row">
             {{#each favouriteSubjects}}
-            <div class="row"><h4>{{name}}</h4></div>
-            <div class="col m6">{{description}}</div>
-            <div class="col m6"><img src={{photo}}></div>
+              <div class="row"><h4>{{name}}</h4></div>
+              <div class="col m6">{{description}}</div>
+              <div class="col m6"><img src={{photo}}></div>
             {{/each}}
         </div>
         <hr>
     </div>
-
 
 
 </body>
